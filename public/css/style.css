@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background:url("../../img/img.jpg"); */
+    background: url("https://img-aws.ehowcdn.com/877x500p/s3-us-west-1.amazonaws.com/contentlab.studiod/getty/5a3a09719d1d4a688b341f90eb60e945");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+.input-area{
+    margin-top: 200px;
+
+}
+.weather-data img{
+    height: 50px;
+}
+.weather-data{
+    background-color: rgba(255, 228, 196, 0.217);
+}
+.weather-data p{
+    margin-top: 30px;
+}
+.weather-data .logo-name p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight:lighter;
+}
+
